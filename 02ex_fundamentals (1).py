@@ -67,16 +67,7 @@ print(lis)
 
 """ex5
 without lambda
-
-firs approach
 """
-
-language_scores = [('Python', 97), ('Cplusplus', 81), ('Php', 45), ('Java', 32)]
-
-language_scores.sort(key=lambda f : f[0])
-print(language_scores)
-
-"""second approch just the keys order"""
 
 language_scores = [('Python', 97), ('Cplusplus', 81), ('Php', 45), ('Java', 32)]
 l=[]
